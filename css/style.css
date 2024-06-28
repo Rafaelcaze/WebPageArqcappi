@@ -12,4 +12,45 @@ body{
     background-repeat: no-repeat;
     color: aliceblue;
 }
+
 img{display: block; border-radius: 100%;}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+}
+.titulo{
+    font-family: KoHo;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFF 0%, #000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.titulo_nome{
+    font-family: KoHo;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.titulo_subtitulo{
+    width: 248px;
+    height: 25px;
+    flex-shrink: 0;
+}
+.Sobre_Carreira{
+    padding: 24px;
+    background: aliceblue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    h1,h2{background: linear-gradient(0deg, #5F8D6E 0%, #5F8D6E 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+}
